@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--tr baris-->
+    <!--td adalah kolom-->
+    <!--border adalah garis tepi-->
+    <!--rowspan baris-->
+    <!--colspan kolom-->
+
+    <h1>Membuat tabel</h1>
+    <h4>Tabel Standart</h4>
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <h4>Dengan header</h4>
+    <table border="i">
+            <tr>
+                <th>senin</th>
+                <th>10.00</th>
+                <th>12.00</th>
+                <th>14.00</th>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>10.00</td>
+                <td>12.00</td>
+                <td>14.00</td>
+            </tr>
+            </table>
+    <br>
+    <table border="i">
+            <th>Senin</th>
+            <th>Selasa</th>
+        <tr>
+            <td>10.00</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>11.00</td>
+            <td>11.00</td>
+        </tr>
+    </table>
+    <br>
+    <table border="i">
+        <th></th>
+        <th>Senin</th>
+        <tr>
+            <td>10.00</td>
+            <td>berangkat sekolah</td>
+        </tr>
+        <tr>
+            <td>12.00</td>
+            <td>makan siang</td>
+        </tr>
+    </table>
+    <h4>alokasi kolom</h4>
+    <table border="i">
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <td>10.00</td>
+            <td>berangkat sekolah</td>
+            <td>berangkat olahraga</td>
+        </tr>
+        <tr>
+            <th rowspan="2">12.00</th>
+            <th colspan="2">makan siang</th>
+
+
+        </tr>
+        <tr>
+            <td colspan="2">Sholat dzuhur</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+
+        <tr>
+            <td colspan="2">baris 1 dengan 2 kolom merge</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3 baris menjadi 1 kolom</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 3 kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 4 kolom 4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
